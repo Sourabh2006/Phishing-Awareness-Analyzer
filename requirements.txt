@@ -1,0 +1,7 @@
+# Sourang Phishing Awareness Analyzer - Dependencies
+# Note: Core analyzer runs out-of-the-box with ZERO required external packages using Python standard library.
+
+# Optional Developer & Testing Packages
+pytest>=7.4.0
+tldextract>=5.1.0
+colorama>=0.4.6

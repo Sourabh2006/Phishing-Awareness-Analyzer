@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sourang-phishing-awareness-analyzer"
+version = "1.0.0"
+authors = [
+  { name="Sourang" },
+]
+description = "Threat Detection & Heuristic Phishing Awareness Analyzer for emails and URLs."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+    "Topic :: Education",
+]
+
+[project.scripts]
+sourang-analyzer = "analyzer:main"
